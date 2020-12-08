@@ -1,0 +1,61 @@
+.wholecard {
+      height: 800px;
+      width: 550px;
+      border: 2px solid gold;
+      border-radius: 10px;
+      padding: 15px;
+      margin: 10px auto;
+      box-shadow: 8px 8px 8px #ADADAD;
+      font-family: 'Nothing You Could Do', cursive;
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      align-items: center;
+      background-image: url(catsbackground.png);
+}
+
+.textbox {
+      padding: 10px;
+      margin: 10px auto;
+      border: 2px solid gold;
+      border-radius: 10px;
+      background: #666699;
+      color: white;
+}
+
+.textbox p {
+  font-size: 10pt;
+  font-style: italic;
+  margin: 10px auto;
+}
+
+.listtitle {
+  font-size: 14pt;
+  font-weight: normal;
+  font-style: normal;
+}
+
+.description p{
+  font-size: 12pt;
+  font-style: normal;
+}
+
+h3 {
+  font: 32pt;
+  color: gold;
+}
+
+img {
+  border-radius: 10pt;
+  border: 2px solid gold;
+}
+
+span {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+ul {
+  font-size: 10pt;
+  list-style-type: none;
+}
